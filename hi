@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" sizes="any" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="CloudMoon">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+<!--  <script src="https://cmp.gatekeeperconsent.com/min.js" data-cfasync="false"></script>-->
+<!--  <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>-->
+
+<!--  <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>-->
+<!--  <script>-->
+<!--    window.ezstandalone = window.ezstandalone || {};-->
+<!--    ezstandalone.cmd = ezstandalone.cmd || [];-->
+<!--  </script>-->
+  
+		<link rel="modulepreload" href="/_app/immutable/entry/start.SgV6TdCc.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/Bcwq3-T6.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/viNGI5jr.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/BN2GDCZF.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/B459L85A.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/DowRnl8j.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.B40WJvKN.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/Bzak7iHL.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/Erj0lBLP.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/cEB3dobH.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/NCT-4E5c.js">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q30NXCCZNN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'G-Q30NXCCZNN');
+
+    // const setRejectBtn = setInterval(() => {
+    //   const privacyDiv = document.querySelector('[data-ezoic-role="privacy-policy"]');;
+    //   if(privacyDiv) {
+    //     privacyDiv.querySelectorAll('*').forEach(el => {
+    //       if (el.childNodes.length) {
+    //         el.childNodes.forEach(node => {
+    //           if (node.nodeType === Node.TEXT_NODE && node.textContent.includes("Do Not Sell My Information")) {
+    //             node.textContent = node.textContent.replace(/Do Not Sell My Information/g, "Reject");
+    //           }
+    //         });
+    //       }
+    //     });
+    //     const rejectButton = privacyDiv.querySelector('#ez-ccpa-reject-all');
+    //     if (rejectButton) rejectButton.textContent = "Reject";
+    //   }
+    //   if(setRejectBtn) {
+    //     clearInterval(setRejectBtn);
+    //   }
+    // }, 33);
+  </script>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    [data-ezoic-role="privacy-policy"] {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+    }
+  </style>
+</head>
+<body data-sveltekit-preload-data="hover">
+<div style="display: contents;height: 100%">
+
+  
+			<script>
+				{
+					__sveltekit_1fi9rp9 = {
+						base: ""
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/_app/immutable/entry/start.SgV6TdCc.js"),
+						import("/_app/immutable/entry/app.B40WJvKN.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		
+
+</div>
+</body>
+</html>
